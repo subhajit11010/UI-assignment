@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid red;
+    margin-top: 10rem;
+}
+#select{
+    margin-bottom: 3rem !important;
+}
+.button{
+    padding-left: 2rem;
+    padding-right: 2rem;   
+    background-color: rgb(37, 156, 140);
+    border-color: rgb(37, 156, 140);
+}
+.btn-con{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 700px){
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+}
